@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/allsports/static/css/main.65139417.chunk.css",
+    "main.js": "/allsports/static/js/main.f8373a66.chunk.js",
+    "main.js.map": "/allsports/static/js/main.f8373a66.chunk.js.map",
+    "runtime~main.js": "/allsports/static/js/runtime~main.e333ad50.js",
+    "runtime~main.js.map": "/allsports/static/js/runtime~main.e333ad50.js.map",
+    "static/js/2.c9984f45.chunk.js": "/allsports/static/js/2.c9984f45.chunk.js",
+    "static/js/2.c9984f45.chunk.js.map": "/allsports/static/js/2.c9984f45.chunk.js.map",
+    "index.html": "/allsports/index.html",
+    "precache-manifest.0ddd9d43ed6208f4c53eabcb0b5676c0.js": "/allsports/precache-manifest.0ddd9d43ed6208f4c53eabcb0b5676c0.js",
+    "service-worker.js": "/allsports/service-worker.js",
+    "static/css/main.65139417.chunk.css.map": "/allsports/static/css/main.65139417.chunk.css.map"
+  }
+}
