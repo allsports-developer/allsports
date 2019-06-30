@@ -1,0 +1,63 @@
+@import '../App.scss';
+
+$header-height : 100px;
+$menu-height : 70px;
+
+.Header{
+	width : 100%;
+	height : $header-height;
+	
+	background-color : $color-primary;
+	font-family : $font;
+	
+	.title{
+		font-size : 2.2rem;
+		font-weight : bold;
+		font-family : inherit;
+		
+		line-height : $header-height;
+		
+		color : $color-text;
+		
+		margin : 0;
+		padding : {
+			left : 40px;
+		}
+	}
+	
+	.menu{
+		width : 100%;
+		height : $menu-height;
+		background-color : $color-primary-dark;
+		
+		.item{
+			font-size : 1.2rem;
+			font-weight : bold;
+			font-family : inherit;
+			
+			color : $color-text;
+			line-height : $menu-height;
+			
+			&:first-child{
+				margin-left : 40px;
+			}
+			
+			&:after{
+				content : "";
+				margin : {
+					left : 30px;
+				}
+			}
+		}
+		
+		.active{
+			color : $color-point;
+		}
+		
+		&:after{
+			content : "";
+			display : block;
+			clear : both;
+		}
+	}
+}

@@ -1,0 +1,308 @@
+$color-background : #F7F9FB;
+
+$color-text : #F3F0E2;
+$color-primary : #2D5D7C;
+$color-primary-dark : #2E364F;
+$color-point : #EF5939;
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap');
+$font : 'Noto Sans KR', sans-serif;
+
+.App{
+	width : 1000px;
+	min-height : 100vh;
+	
+	background-color : $color-background;
+	color : $color-primary-dark;
+	
+	margin : {
+		left : 250px;
+		right : 250px;
+	}
+	
+	
+}
+
+.title-header{
+	display : inline-block;
+
+	height : 50px;
+	line-height : 50px;
+	
+	font-family : inherit;
+	font-size : 1.5rem;
+	font-weight : bold;
+	
+	margin : 0;
+	margin-left : 30px;
+	
+	padding : {
+		left : 30px;
+		right : 50px;
+	}
+	
+	border-left : 2px solid $color-point;
+	
+	&:after{
+		content : "";
+		display : block;
+		clear : both;
+	}
+}
+
+.post-list{
+	border-bottom : 1px solid #ddd;
+
+	margin : {
+		left : 35px;
+		right : 35px;
+		top : 50px;
+		bottom : 20px;
+	}
+}
+
+.post-item{
+	border-top : 1px solid #ddd;
+	
+	padding : {
+		top : 10px;
+		bottom : 10px;
+		left : 20px;
+		right : 20px;
+	}
+
+	.title{
+		display : inline-block;
+		width : 95%;
+		
+		margin : {
+			top : 7px;
+			bottom : 2px;
+			right : 0;
+		}
+	}
+	.date{
+		margin : {
+			top : 7px;
+			bottom : 2px;
+		}
+	}
+	
+	.delete{
+		display : inline-block;
+		margin : {
+			top : 7px;
+			bottom : 2px;
+		}
+	}
+	
+}
+
+.Notice{
+	width : 100%;
+	clear : both;
+	margin-top : 100px;
+	padding : {
+		top : 20px;
+		bottom : 50px;
+	}
+	font-family : $font;
+	font-size : 1.2rem;
+	
+	form{
+		
+		margin : {
+			top : 30px;
+			bottom : 30px;
+		}
+		
+		padding : {
+			left : 30px;
+			right : 30px;
+		}
+		
+		input, textarea{
+			margin : {
+				top : 10px;
+				bottom : 10px;
+			}
+		}
+		
+		textarea{
+			min-height : 200px;
+		}
+		
+		button{
+			background-color: $color-primary;
+			color: #fff;
+			border: 1px solid transparent;
+			
+			margin-top : 30px;
+		}
+		
+		
+	}
+	
+	
+}
+
+.Player{
+	width : 100%;
+	clear : both;
+	margin-top : 100px;
+	padding : {
+		top : 20px;
+		bottom : 50px;
+	}
+	font-family : $font;
+	font-size : 1.2rem;
+	
+	form{
+		margin : {
+			top : 30px;
+			bottom : 30px;
+		}
+		
+		padding : {
+			left : 30px;
+			right : 30px;
+		}
+		input{
+			margin : {
+				bottom : 13px;
+			}
+		}
+		
+		button{
+			background-color: $color-primary;
+			color: #fff;
+			border: 1px solid transparent;
+			
+			margin-top : 30px;
+		}
+		
+		.label{
+			font-weight : bold;
+			
+			margin : {
+				top : 20px;
+				bottom : 10px;
+			}
+		}
+		
+	}
+}
+
+.Image{
+	width : 100%;
+	clear : both;
+	margin-top : 100px;
+	padding : {
+		top : 20px;
+		bottom : 50px;
+	}
+	font-family : $font;
+	font-size : 1.2rem;
+	
+	form{
+		
+		margin : {
+			top : 30px;
+			bottom : 30px;
+		}
+		
+		padding : {
+			left : 30px;
+			right : 30px;
+		}
+		
+		button{
+			background-color: $color-primary;
+			color: #fff;
+			border: 1px solid transparent;
+			
+			margin-top : 30px;
+		}
+	}
+}
+
+.Video{
+	width : 100%;
+	clear : both;
+	margin-top : 100px;
+	padding : {
+		top : 20px;
+		bottom : 50px;
+	}
+	font-family : $font;
+	font-size : 1.2rem;
+	
+	form{
+		
+		margin : {
+			top : 30px;
+			bottom : 30px;
+		}
+		
+		padding : {
+			left : 30px;
+			right : 30px;
+		}
+		
+		button{
+			background-color: $color-primary;
+			color: #fff;
+			border: 1px solid transparent;
+			
+			margin-top : 30px;
+		}
+	}
+}
+
+.League{
+	width : 100%;
+	clear : both;
+	margin-top : 100px;
+	padding : {
+		top : 20px;
+		bottom : 50px;
+	}
+	font-family : $font;
+	font-size : 1.2rem;
+	
+	form{
+		
+		margin : {
+			top : 30px;
+			bottom : 30px;
+		}
+		
+		padding : {
+			left : 30px;
+			right : 30px;
+		}
+		
+		input{
+			margin : {
+				bottom : 13px;
+			}
+		}
+		
+		button{
+			background-color: $color-primary;
+			color: #fff;
+			border: 1px solid transparent;
+			
+			margin-top : 30px;
+		}
+		
+		.label{
+			font-weight : bold;
+			
+			margin : {
+				top : 20px;
+				bottom : 10px;
+			}
+		}
+	}
+}
